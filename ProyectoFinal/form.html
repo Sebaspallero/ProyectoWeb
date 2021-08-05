@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+	width:350px;
+	padding:30px;
+	margin:auto;
+    border: black solid 1px;
+}
+
+label{
+	width:72px;
+    font-family:'Poppins', sans-serif ;
+    font-size: small;
+	font-weight:bold;
+	display:inline-block;
+    padding: 1em;
+}
+
+input[type="text"]
+{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid;
+	border-radius:3px;
+	margin:8px 0;
+	display:inline-block;
+}
+
+input[type="submit"]
+ {
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid black;
+	border-radius:5px;
+	display:block;
+	color:#FDF8F5;
+	background-color:black;
+}  
+
+input[type="reset"]
+ {
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid black;
+	border-radius:5px;
+	display:block;
+	color:#FDF8F5;
+	background-color:black;
+} 
+
+</style>
+<body>
+    <form action="" method="POST">
+        <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        <label for="Escoja Su País">Escoja Su País</label>
+            <select name="País">
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Chile">Chile</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+            </select>
+        <label for="¿Desea Suscribirse a nuestro Newsletter?">¿Desea Suscribirse a nuestro Newsletter?</label>
+           <input type="checkbox" name="acepta" value="1" /> 
+           <input type="submit" value="Enviar formulario"/>
+           <input type="reset" value="Limpiar formulario"/>
+</form>
+    
+</body>
+</html>
