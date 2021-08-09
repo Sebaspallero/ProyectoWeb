@@ -1,5 +1,7 @@
 # ProyectoWeb
-Sitio Web "Petit Nunú" Coderhouse
+Sitio Web "Petit Nunú" Coderhouse 🚀
+
+Información general 📋
 
 -Proyecto final del curso de Desarrollo Web de Coderhouse.
 
