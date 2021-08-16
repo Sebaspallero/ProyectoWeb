@@ -46,14 +46,6 @@ header {
     height: 250px; }
 
 /*------------------------------ Estilos de Nav -------------------------------------------------*/
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.menu-lista ul {
-  display: flex; }
-
 .menu-lista li a {
   padding: 0.5em;
   margin: 1em;
@@ -87,62 +79,7 @@ nav {
 .banner-enlace:hover {
   color: black; }
 
-/* --------------------------------------ESTILO INDEX GRID----------------------------------------------- */
-.index__grid__enlace {
-  background-color: #dfe6e9;
-  padding: 3em;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  grid-column-gap: 1.5em;
-  grid-row-gap: 3em; }
-  .index__grid__enlace .index__card__enlace {
-    background-color: white;
-    border-radius: 1em;
-    box-shadow: 0px 5px 5px #dfe6e9;
-    text-align: center;
-    overflow: hidden;
-    padding: 1.6em; }
-  .index__grid__enlace .index__card__titulo {
-    font-size: large;
-    font-weight: bold;
-    margin-bottom: 1em; }
-  .index__grid__enlace .index__img__enlace img {
-    max-width: 100%;
-    border-radius: 1em;
-    transition: 0.5s ease-in-out;
-    transform-origin: bottom;
-    width: 270px;
-    height: 310px; }
-  .index__grid__enlace .index__img__enlace img:hover {
-    transform: scale(1.35); }
-  .index__grid__enlace .index__card__text {
-    text-align: center;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em; }
-  .index__grid__enlace .index__btn {
-    border: none;
-    background-color: #fab1a0;
-    padding: 0.7em;
-    border-radius: 0.5em;
-    font-weight: 600;
-    margin-top: 0.5em;
-    width: 100%; }
-  .index__grid__enlace .index__btn:hover {
-    color: black;
-    box-shadow: 0px 5px 3px #dfe6e9;
-    transform: scale(1.1);
-    transition: 0.4s ease-in-out;
-    transform-origin: bottom; }
-  .index__grid__enlace .index__enlace {
-    list-style: none;
-    text-decoration: none;
-    color: inherit; }
-  .index__grid__enlace .index__enlace:hover {
-    color: black; }
-  .index__grid__enlace .titulos {
-    padding: 1em 1em; }
-
-/* ---------------------------------------------------------------------------- */
+/* --------------------------------------ESTILO INDEX ------------------------------------------------ */
 .ropa__chicos {
   margin-top: 20%;
   display: flex;
@@ -195,8 +132,6 @@ nav {
   color: black; }
 
 .ropa__chicos__imgbx {
-  margin-top: 5em;
-  margin-bottom: 3em;
   width: 36em;
   height: 33em;
   position: absolute; }
@@ -219,7 +154,11 @@ nav {
 .main__image:hover {
   transform: scale(1.05); }
 
-/* CHICAS-------------------------------------------------------- */
+.index__fm {
+  margin-top: 7em;
+  margin-bottom: 10em; }
+
+/* ----------------------------------------CHICAS-------------------------------------------------------- */
 .ropa__chicas {
   margin-top: 20%;
   display: flex;
@@ -246,9 +185,10 @@ nav {
   transform-origin: bottom;
   color: black; }
 
+.btn__acerca {
+  text-align: center; }
+
 .ropa__chicas__imgbx {
-  margin-top: 5em;
-  margin-bottom: 3em;
   width: 40em;
   height: 33em;
   position: absolute; }
@@ -264,20 +204,10 @@ nav {
 .ropa__chicas__imgbx:hover .img__fondo {
   bottom: 40px; }
 
-.main__image {
-  transition: 0.5s ease-in-out;
-  transform-origin: bottom; }
-
-.main__image:hover {
-  transform: scale(1.05); }
-
-.final{
-  margin-bottom: 3em;
-}
-
 .index__body {
   background-color: #fafafa; }
 
+/* ---------------------------------------BOTONES REDES------------------------------------------ */
 .footer__redes {
   display: flex;
   flex-flow: row;
@@ -398,9 +328,20 @@ footer {
   margin: 2em 2em;
   border-radius: 3em; }
 
-.fotosAcerca:hover {
-  transition: 0.4s ease-in-out;
-  transform: scale(1.2); }
+.acerca__derecha {
+  position: absolute;
+  left: 50%;
+  bottom: -170%; }
+
+.acerca__izq__arriba {
+  position: absolute;
+  right: 50%;
+  bottom: -50%; }
+
+.acerca__izq__abajo {
+  position: absolute;
+  right: 50%;
+  bottom: -280%; }
 
 .text-acerca {
   text-align: center;
@@ -482,80 +423,71 @@ footer {
   .menu-lista li {
     padding-bottom: 2em; }
   body {
-    font-size: 14px; }
-  }
+    font-size: 14px; } }
 
-  @media only screen and (max-width: 1200px){
-    .ropa__chicos__imgbx{
-      display: none;
-    }
-    .ropa__chicas__imgbx{
-      display: none;
-    }
-    .ropa__chicas{
-      margin-top: 20%;
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-      justify-items: center;
-      justify-content: center;
-     }
-     .ropa__chicas h2{
-         font-size: 2.5rem;
-         color:black;
-         margin-bottom: 1em;
-         text-align: center;
-     }
-     .ropa__chicas p{
-         line-height: 1.5em;
-         text-align: center;
-     }
- 
-     .btn__rosa{
-         border: none;
-         background-color: #fab1a0;
-         color: black;
-         font-weight: 600;
-         padding: 10px 18px;
-         border-radius: 0.5em;
-         display: inline-block;
-         text-decoration: none;
-         margin-top: 1.5em;
-         text-align: center;
-     }
-
-     .ropa__chicos{
-      margin-top: 20%;
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-      justify-items: center;
-      justify-content: center;
-     }
-     .ropa__chicos h2{
-         font-size: 2.5rem;
-         color:black;
-         margin-bottom: 1em;
-         text-align: center;
-     }
-     .ropa__chicos p{
-         line-height: 1.5em;
-         text-align: center;
-     }
- 
-     .btn__azul{
-         border: none;
-         background-color: #dfe6e9;
-         color: black;
-         font-weight: 600;
-         padding: 10px 18px;
-         border-radius: 0.5em;
-         display: inline-block;
-         text-decoration: none;
-         margin-top: 1.5em;
-         text-align: center;
-     }
-  }
+@media only screen and (max-width: 1200px) {
+  .ropa__chicos__imgbx {
+    display: none; }
+  .ropa__chicas__imgbx {
+    display: none; }
+  .ropa__chicas {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center; }
+  .ropa__chicas h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1em;
+    text-align: center; }
+  .ropa__chicas p {
+    line-height: 1.5em;
+    text-align: center; }
+  .btn__rosa {
+    border: none;
+    background-color: #fab1a0;
+    color: black;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5em;
+    text-align: center; }
+  .ropa__chicos {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center; }
+  .ropa__chicos h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1em;
+    text-align: center; }
+  .ropa__chicos p {
+    line-height: 1.5em;
+    text-align: center; }
+  .btn__azul {
+    border: none;
+    background-color: #a29bfe;
+    color: black;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5em;
+    text-align: center; }
+  .acerca__derecha {
+    display: none; }
+  .acerca__izq__arriba {
+    display: none; }
+  .acerca__izq__abajo {
+    display: none; } }
 
 @media only screen and (max-width: 660px) {
   body {
@@ -564,9 +496,9 @@ footer {
     font-size: 10px; }
   h3 {
     text-align: center;
-    padding-bottom: 0.1em; }
-  }
+    padding-bottom: 0.1em; } }
 
+/* -------------------------------ERROR 404------------------------------ */
 .contenedor__error {
   display: flex;
   flex-direction: column;
@@ -580,14 +512,13 @@ footer {
   .contenedor__error .text__error {
     text-align: center;
     margin-bottom: 2em; }
-  .contenedor__error .links__error {
-    flex-direction: column;
-    align-items: center; }
   .contenedor__error .links__error__lista {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     text-align: center; }
   .contenedor__error .links__error__lista li {
-    padding-bottom: 1.5em; }
+    margin: 1em; }
   .contenedor__error .links__error__lista a {
     text-decoration: none;
     color: black;
