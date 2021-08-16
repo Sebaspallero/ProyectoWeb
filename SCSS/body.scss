@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	list-style: none;
+ }
+
+ *{
+     font-family:'Poppins', sans-serif;
+ }
+
+
+/* FONDO Y TIPOGRAFIA*/
+$clr-bg-black: #000;
+$clr-bg-dark: #333;
+$clr-bg-light: #f3f3f3;
+$clr-bg-white: #fafafa;
+
+/* COLORES */
+$clr-accent-rosa: #fab1a0;
+$clr-accent-celeste: #dfe6e9;
+
+/* ----------------------------BODY-------------------------------------------------------------- */
+
+body{
+    background-color:$clr-bg-white;
+
+    h1{
+        margin:0.5em;
+    }
+
+    h2 {text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    h3{ text-align: center;
+        padding-bottom: 2em;
+        padding-top: 1em;
+        
+    }
+    
+    
+    p{
+        text-align: center;
+    }
+
+    .btn__arriba{
+        background-color:#dfe6e9 ;
+        text-align: center;
+        font-size: 1.7em;
+        color: grey;
+    }
+
+    .btn__arriba__blanco{
+        background-color:#fafafa ;
+        text-align: center;
+        font-size: 1.7em;
+        color: grey;
+    }
+
+}

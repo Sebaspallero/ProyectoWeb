@@ -1,0 +1,211 @@
+
+/* -----------------Banner Arriba------------------------------- */
+
+
+.banner-enlace{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+  }
+
+  .banner-enlace:hover{
+      color: black;
+  }
+
+/* --------------------------------------ESTILO INDEX ------------------------------------------------ */
+
+.ropa__chicos{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.titulo__izq{
+    font-size: 2.5rem;
+    color:black;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.titulo__der{
+    font-size: 2.5rem;
+    color:black;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.titulo__azul{
+    color:#a29bfe;
+}
+
+.titulo__rosa{
+     color:#fab1a0;
+}
+
+.ropa__chicos p{
+    line-height: 2em;
+    text-align: left;
+}
+
+.ropa__chicas p{
+    line-height: 2em;
+    text-align: right;
+}
+
+.btn__azul{
+    border: none;
+    background-color: #a29bfe;
+    color: black;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5em;
+}
+
+.btn__azul:hover{
+    box-shadow: 0px 3px 3px #636e72;
+    transform: scale(1.05);
+    transition: 0.4s;
+    transform-origin:bottom;
+    color: black;
+}
+
+.ropa__chicos__imgbx{
+    width: 36em;
+    height: 33em;
+    position: absolute;
+}
+
+.ropa__chicos__imgbx img{
+    height: 100%;
+    position: absolute;
+    left:50%;
+    bottom:0px;
+    transform: translate(-40%);
+    transition: 1s;
+}
+
+.ropa__chicos__imgbx:hover .img__fondo{
+    bottom:40px;
+}
+
+.main__image{
+    transition: 0.5s ease-in-out;
+    transform-origin:bottom;
+}
+
+.main__image:hover{
+    transform: scale(1.05);
+}
+
+.index__fm{
+    margin-top: 7em;
+    margin-bottom: 10em;
+}
+
+/* ----------------------------------------CHICAS-------------------------------------------------------- */
+
+.ropa__chicas{
+ margin-top: 20%;
+ display: flex;
+ flex-direction: column;
+ align-items:flex-end;
+ justify-items: center;
+}
+
+
+.btn__rosa{
+    border: none;
+    background-color: #fab1a0;
+    color: black;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5em;
+    text-align: right;
+}
+
+.btn__rosa:hover{
+    box-shadow: 0px 3px 3px #636e72;
+    transform: scale(1.05);
+    transition: 0.4s;
+    transform-origin:bottom;
+    color: black;
+}
+
+.btn__acerca{
+    text-align: center;
+}
+
+.ropa__chicas__imgbx{
+    width: 40em;
+    height: 33em;
+    position: absolute;
+    
+}
+
+.ropa__chicas__imgbx img{
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    bottom:0px;
+    transform: translate(-40%);
+    transition: 1s;
+}
+
+.ropa__chicas__imgbx:hover .img__fondo{
+    bottom:40px;
+}
+
+.index__body{
+    background-color:#fafafa ;
+}
+
+
+/* ---------------------------------------BOTONES REDES------------------------------------------ */
+
+
+.footer__redes{
+    display: flex;
+    flex-flow: row;
+    gap: 2em;
+    margin-bottom:2em;
+}
+
+.footer__redes__twitter{
+    color: lightgrey;
+}
+
+.footer__redes__twitter:hover{
+    transition: 0.4s;
+    color: #1DA1F2;
+    
+}
+
+.fa-instagram{
+    font-size: 2.5em;
+    color: lightgrey;
+}
+
+.inst__logo:hover{
+    transition: 0.4s;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+
+}
+
+.footer__redes__facebook{
+    color: lightgrey;
+}
+
+.footer__redes__facebook:hover{
+    transition: 0.4s;
+    color: #3B5998;
+}

@@ -1,0 +1,41 @@
+/* -------------------------Estilos de Acerca----------------------------------- */
+
+.fotosAcerca{
+    width: 600px;
+    height: 400px;
+    padding: 2em 2em;
+    margin: 2em 2em;
+    border-radius: 3em;
+}
+
+
+.acerca__derecha{
+    position: absolute;
+    left:50%;
+    bottom:-170%;
+
+}
+
+.acerca__izq__arriba{
+    position: absolute;
+    right:50%;
+    bottom:-50%;
+}
+
+.acerca__izq__abajo{
+    position: absolute;
+    right:50%;
+    bottom:-280%;
+}
+
+.text-acerca{
+    text-align: center;
+    padding: 2em 2em;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}

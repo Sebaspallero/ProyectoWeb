@@ -1,0 +1,49 @@
+
+
+/* -------------------------------ERROR 404------------------------------ */
+
+.contenedor__error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: poppins;
+
+    .titulo__error{
+        font-size: 3rem;
+        margin-bottom: 1em;
+    }
+    
+    .text__error{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    
+    .links__error__lista{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .links__error__lista li{
+        margin: 1em;
+    }
+    
+    .links__error__lista a{
+        text-decoration:none;
+        color: black;
+        margin: auto;
+        padding: 0.5em;
+    
+    }
+    
+    .links__error__lista a:hover{
+        background-color:#fab1a0;
+        transform: scale(1.1);
+        transition: 0.4s ease-in-out;
+        border-radius: 0.3em;
+        
+    }
+}

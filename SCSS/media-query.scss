@@ -1,0 +1,133 @@
+/* --------------------MEDIA QUERY----------------------------------- */
+
+
+@media only screen and (max-width: 1350px){
+
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .menu-lista ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu-lista{
+        width: 100%;
+    }
+    
+    .menu-lista li {
+        text-align: center;
+    }
+
+    .menu-lista li{
+        padding-bottom: 2em;
+    }
+
+ body{
+    font-size: 14px;
+ }
+ }
+
+
+
+ @media only screen and (max-width: 1200px){
+    .ropa__chicos__imgbx{
+      display: none;
+    }
+    .ropa__chicas__imgbx{
+      display: none;
+    }
+    .ropa__chicas{
+      margin-top: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-items: center;
+      justify-content: center;
+     }
+     .ropa__chicas h2{
+         font-size: 2.5rem;
+         color:black;
+         margin-bottom: 1em;
+         text-align: center;
+     }
+     .ropa__chicas p{
+         line-height: 1.5em;
+         text-align: center;
+     }
+ 
+     .btn__rosa{
+         border: none;
+         background-color: #fab1a0;
+         color: black;
+         font-weight: 600;
+         padding: 10px 18px;
+         border-radius: 0.5em;
+         display: inline-block;
+         text-decoration: none;
+         margin-top: 1.5em;
+         text-align: center;
+     }
+
+     .ropa__chicos{
+      margin-top: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-items: center;
+      justify-content: center;
+     }
+     .ropa__chicos h2{
+         font-size: 2.5rem;
+         color:black;
+         margin-bottom: 1em;
+         text-align: center;
+     }
+     .ropa__chicos p{
+         line-height: 1.5em;
+         text-align: center;
+     }
+ 
+     .btn__azul{
+         border: none;
+         background-color: #a29bfe;
+         color: black;
+         font-weight: 600;
+         padding: 10px 18px;
+         border-radius: 0.5em;
+         display: inline-block;
+         text-decoration: none;
+         margin-top: 1.5em;
+         text-align: center;
+     }
+
+     .acerca__derecha{
+         display: none;
+     }
+
+     .acerca__izq__arriba{
+         display: none;
+     }
+
+     .acerca__izq__abajo{
+         display: none;
+     }
+  }
+
+@media only screen and (max-width: 660px){
+
+    body{
+        font-size: 12px;
+    }
+
+    .text-banner{
+        font-size:10px;
+    }
+
+    h3{ text-align: center;
+        padding-bottom: 0.1em;
+        
+    }
+}
