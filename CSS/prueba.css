@@ -1,3 +1,4 @@
+/* ----------------------------RESET-------------------------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -13,230 +14,235 @@
 /* COLORES */
 /* ----------------------------BODY-------------------------------------------------------------- */
 body {
-  background-color: #fafafa; }
+  background-color: #f8f9fa;
+  /* ---------------------------------------ICON REDES------------------------------------------ */ }
   body h1 {
-    margin: 0.5em; }
+    padding: 1em; }
   body h2 {
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em; }
+    text-align: center; }
   body h3 {
     text-align: center;
     padding-bottom: 2em;
     padding-top: 1em; }
-  body p {
-    text-align: center; }
   body .btn__arriba {
     background-color: #dfe6e9;
     text-align: center;
     font-size: 1.7em;
     color: grey; }
   body .btn__arriba__blanco {
-    background-color: #fafafa;
+    background-color: #f8f9fa;
     text-align: center;
     font-size: 1.7em;
     color: grey; }
+  body .btn__arriba__rosa {
+    background-color: #fab1a0;
+    text-align: center;
+    font-size: 1.7em;
+    color: grey; }
+  body .titulos__negro__main {
+    font-size: 4rem;
+    letter-spacing: 5px; }
+  body .titulos__negro {
+    font-size: 2.5rem;
+    margin-top: 1em; }
+  body .titulos__blanco__main {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    color: white; }
+  body .titulos__blanco {
+    font-size: 2.5rem;
+    color: white; }
+  body .icon__redes {
+    display: flex;
+    flex-flow: row;
+    gap: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em; }
+    body .icon__redes .twi__logo {
+      font-size: 2.4em;
+      color: lightgrey;
+      transition: 0.4s; }
+    body .icon__redes .twi__logo:hover {
+      color: #1DA1F2; }
+    body .icon__redes .fa-instagram {
+      font-size: 2.5em;
+      color: lightgrey;
+      transition: 0.4s; }
+    body .icon__redes .inst__logo:hover {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent; }
+    body .icon__redes .face__logo {
+      font-size: 2.3em;
+      color: lightgrey;
+      transition: 0.4s; }
+    body .icon__redes .face__logo:hover {
+      color: #3B5998; }
 
 /* -------------------------------HEADER--------------------------------------------------------- */
 header {
-  background: #f3f3f3; }
+  background-color: #fab1a0; }
   header .header__logo {
     margin: 0.5em;
     width: 250px;
     height: 250px; }
 
-/*------------------------------ Estilos de Nav -------------------------------------------------*/
-.menu-lista li a {
-  padding: 0.5em;
-  margin: 1em;
-  text-decoration: none;
-  list-style: none;
-  color: #000; }
-
-.menu-lista li a:hover {
-  background-color: #fab1a0;
-  transform: scale(1.1);
-  transition: 0.4s ease-in-out;
-  border-radius: 0.3em; }
-
-.menu-link-active {
-  font-weight: 550;
-  background-color: #fab1a0;
-  border-radius: 0.3em; }
-
-/* -----------------Banner Arriba------------------------------- */
-.banner-enlace {
-  text-decoration: none;
-  list-style: none;
-  color: var(--clr-txt-light); }
-
-/* -----------------Banner Arriba------------------------------- */
-.banner-enlace {
-  text-decoration: none;
-  list-style: none;
-  color: black; }
-
-.banner-enlace:hover {
-  color: black; }
+/* -----------------BANNER INDEX ARRIBA------------------------------- */
+.banner {
+  background-color: #fab1a0; }
+  .banner .banner__titulo {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 80%; }
+  .banner .banner__sale {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 7px; }
+  .banner .banner__num {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    word-spacing: 10px;
+    letter-spacing: 7px; }
+  .banner .banner__off {
+    color: black;
+    font-size: 3.5rem; }
+  .banner .banner__text {
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em; }
+  .banner .banner__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .banner .banner__link .banner__boys {
+      border: solid 2px white;
+      background-color: transparent;
+      color: white;
+      font-weight: 600;
+      padding: 10px 30px;
+      border-radius: 2em 2em;
+      text-decoration: none;
+      margin: 2em;
+      transition: 0.8s; }
+    .banner .banner__link .banner__boys:hover {
+      color: black;
+      background-color: white;
+      border: white; }
+    .banner .banner__link .banner__girls {
+      border: solid 2px black;
+      background-color: transparent;
+      color: black;
+      font-weight: 600;
+      padding: 10px 30px;
+      border-radius: 2em 2em;
+      text-decoration: none;
+      margin: 2em;
+      transition: 0.8s; }
+    .banner .banner__link .banner__girls:hover {
+      color: white;
+      background-color: black; }
+  .banner .banner__fondo {
+    display: block; }
+  .banner .banner__img {
+    width: 30em;
+    height: 28em;
+    position: absolute;
+    left: 60%;
+    top: 90%; }
 
 /* --------------------------------------ESTILO INDEX ------------------------------------------------ */
-.ropa__chicos {
-  margin-top: 20%;
+.index__imgbox {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 2em;
+  margin-right: 2em; }
+  .index__imgbox .index__back__img {
+    width: 33em;
+    height: 30em;
+    position: absolute;
+    transition: 1s; }
+  .index__imgbox .index__main__img {
+    width: 33em;
+    height: 30em;
+    position: relative; }
+
+.index__imgbox:hover .index__back__img {
+  transform: translateY(-10%); }
+
+.index__body {
+  background-color: #f8f9fa; }
+
+/* ----------------------------------------CHICOS-------------------------------------------------------- */
+.index__text__i {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-items: center; }
-
-.titulo__izq {
-  font-size: 2.5rem;
-  color: black;
-  margin-bottom: 1em;
-  text-align: left; }
-
-.titulo__der {
-  font-size: 2.5rem;
-  color: black;
-  margin-bottom: 1em;
-  text-align: right; }
-
-.titulo__azul {
-  color: #a29bfe; }
-
-.titulo__rosa {
-  color: #fab1a0; }
-
-.ropa__chicos p {
-  line-height: 2em;
-  text-align: left; }
-
-.ropa__chicas p {
-  line-height: 2em;
-  text-align: right; }
-
-.btn__azul {
-  border: none;
-  background-color: #a29bfe;
-  color: black;
-  font-weight: 600;
-  padding: 10px 18px;
-  border-radius: 0.5em;
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 1.5em; }
-
-.btn__azul:hover {
-  box-shadow: 0px 3px 3px #636e72;
-  transform: scale(1.05);
-  transition: 0.4s;
-  transform-origin: bottom;
-  color: black; }
-
-.ropa__chicos__imgbx {
-  width: 36em;
-  height: 33em;
-  position: absolute; }
-
-.ropa__chicos__imgbx img {
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translate(-40%);
-  transition: 1s; }
-
-.ropa__chicos__imgbx:hover .img__fondo {
-  bottom: 40px; }
-
-.main__image {
-  transition: 0.5s ease-in-out;
-  transform-origin: bottom; }
-
-.main__image:hover {
-  transform: scale(1.05); }
-
-.index__fm {
-  margin-top: 7em;
-  margin-bottom: 10em; }
+  margin-left: 1em;
+  max-width: 425px; }
+  .index__text__i p {
+    text-align: left; }
+  .index__text__i .titulo__izq {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1em;
+    text-align: left; }
+  .index__text__i .titulo__azul {
+    color: #a29bfe; }
+  .index__text__i .btn__azul {
+    border: solid 2px #a29bfe;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 2em 2em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5em;
+    transition: 0.4s; }
+  .index__text__i .btn__azul:hover {
+    transform-origin: bottom;
+    color: white;
+    background-color: #a29bfe; }
 
 /* ----------------------------------------CHICAS-------------------------------------------------------- */
-.ropa__chicas {
-  margin-top: 20%;
+.index__text__d {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-items: center; }
-
-.btn__rosa {
-  border: none;
-  background-color: #fab1a0;
-  color: black;
-  font-weight: 600;
-  padding: 10px 18px;
-  border-radius: 0.5em;
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 1.5em;
-  text-align: right; }
-
-.btn__rosa:hover {
-  box-shadow: 0px 3px 3px #636e72;
-  transform: scale(1.05);
-  transition: 0.4s;
-  transform-origin: bottom;
-  color: black; }
-
-.btn__acerca {
-  text-align: center; }
-
-.ropa__chicas__imgbx {
-  width: 40em;
-  height: 33em;
-  position: absolute; }
-
-.ropa__chicas__imgbx img {
-  height: 100%;
-  position: absolute;
-  left: 20%;
-  bottom: 0px;
-  transform: translate(-40%);
-  transition: 1s; }
-
-.ropa__chicas__imgbx:hover .img__fondo {
-  bottom: 40px; }
-
-.index__body {
-  background-color: #fafafa; }
-
-/* ---------------------------------------BOTONES REDES------------------------------------------ */
-.footer__redes {
-  display: flex;
-  flex-flow: row;
-  gap: 2em;
-  margin-bottom: 2em; }
-
-.footer__redes__twitter {
-  color: lightgrey; }
-
-.footer__redes__twitter:hover {
-  transition: 0.4s;
-  color: #1DA1F2; }
-
-.fa-instagram {
-  font-size: 2.5em;
-  color: lightgrey; }
-
-.inst__logo:hover {
-  transition: 0.4s;
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text; }
-
-.footer__redes__facebook {
-  color: lightgrey; }
-
-.footer__redes__facebook:hover {
-  transition: 0.4s;
-  color: #3B5998; }
+  justify-items: center;
+  margin-right: 1em;
+  max-width: 425px; }
+  .index__text__d p {
+    text-align: right; }
+  .index__text__d .titulo__der {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1em;
+    text-align: right; }
+  .index__text__d .titulo__rosa {
+    color: #fab1a0; }
+  .index__text__d .btn__rosa {
+    border: solid 2px #fab1a0;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 2em 2em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5em;
+    text-align: right;
+    transition: 0.4s; }
+  .index__text__d .btn__rosa:hover {
+    transform-origin: bottom;
+    color: white;
+    background-color: #fab1a0; }
 
 /* ---------------------------------------FOOTER--------------------------------------------------- */
 footer {
@@ -250,43 +256,80 @@ footer {
   footer .footer__logo {
     width: 250px;
     height: 250px; }
-  footer .footer__redes {
-    display: flex;
-    flex-flow: row;
-    gap: 2em;
-    margin-bottom: 2em; }
-  footer .footer__redes__twitter {
-    color: lightgrey; }
-  footer .footer__redes__twitter:hover {
-    transition: 0.4s;
-    color: #1DA1F2; }
-  footer .fa-instagram {
-    font-size: 2.5em;
-    color: lightgrey; }
-  footer .inst__logo:hover {
-    transition: 0.4s;
-    color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text; }
-  footer .footer__redes__facebook {
-    color: lightgrey; }
-  footer .footer__redes__facebook:hover {
-    transition: 0.4s;
-    color: #3B5998; }
 
-/* ------------------------------PRODUCTOS------------------------------------------------- */
+/* ------------------------------BANNER CHICAS---------------------------------------------- */
+.main__girls {
+  background-color: #fab1a0; }
+  .main__girls .banner__chicas__titulo {
+    background-color: #fab1a0; }
+  .main__girls .banner__chicas {
+    background-color: #fab1a0; }
+
+/* ------------------------------PORODUCTOS CHICAS------------------------------------------------ */
+.grid__productos__chicas {
+  background-color: #fab1a0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19em, 1fr));
+  grid-column-gap: 1.5em; }
+  .grid__productos__chicas .prod__card {
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 3em;
+    box-shadow: 0px 5px 5px lightgrey;
+    text-align: center;
+    overflow: hidden; }
+  .grid__productos__chicas .prod__titulo {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 1em; }
+  .grid__productos__chicas .prod__img img {
+    max-width: 100%;
+    height: 27em;
+    border-radius: 1em;
+    transition: 0.5s ease-in-out;
+    transform-origin: bottom; }
+  .grid__productos__chicas .prod__img img:hover {
+    transform: scale(1.2); }
+  .grid__productos__chicas .prod__text {
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em; }
+  .grid__productos__chicas .prod__btn__chicas {
+    border: solid 2px #fab1a0;
+    background-color: transparent;
+    padding: 0.7em;
+    border-radius: 2em 2em;
+    font-weight: 600;
+    transition: 0.5s; }
+  .grid__productos__chicas .prod__btn__chicas:hover {
+    background-color: #fab1a0;
+    color: white;
+    font-weight: bolder;
+    transform-origin: bottom; }
+
+/* ------------------------------BANNNER CHICOS---------------------------------------------- */
+.main__boys {
+  background-color: #dfe6e9; }
+  .main__boys .banner__chicos__titulo {
+    background-color: #dfe6e9; }
+  .main__boys .banner__chicos {
+    background-color: #f8f9fa; }
+
+/* ------------------------------PRODUCTOS CHICOS------------------------------------------------- */
 .grid__productos {
   background-color: #dfe6e9;
-  padding: 3em;
+  padding: 1em;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
-  grid-column-gap: 1.5em;
-  grid-row-gap: 3em; }
+  grid-template-columns: repeat(auto-fill, minmax(19em, 1fr));
+  grid-column-gap: 1.5em; }
   .grid__productos .prod__card {
     background-color: white;
     border-radius: 1em;
     padding: 1em;
-    box-shadow: 0px 5px 5px #dfe6e9;
+    margin-top: 3em;
+    box-shadow: 0px 5px 5px lightgrey;
     text-align: center;
     overflow: hidden; }
   .grid__productos .prod__titulo {
@@ -300,62 +343,113 @@ footer {
     transition: 0.5s ease-in-out;
     transform-origin: bottom; }
   .grid__productos .prod__img img:hover {
-    transform: scale(1.38); }
+    transform: scale(1.2); }
   .grid__productos .prod__text {
     text-align: center;
     margin-bottom: 0.5em;
     margin-top: 0.5em; }
-  .grid__productos .prod__btn {
-    border: none;
-    background-color: #fab1a0;
+  .grid__productos .prod__btn__chicos {
+    border: solid 2px #a29bfe;
+    background-color: transparent;
     padding: 0.7em;
-    border-radius: 0.5em;
-    font-weight: 600; }
-  .grid__productos .prod__btn:hover {
-    box-shadow: 0px 3px 3px #dfe6e9;
+    border-radius: 2em 2em;
+    font-weight: 600;
+    transition: 0.5s; }
+  .grid__productos .prod__btn__chicos:hover {
+    background-color: #a29bfe;
+    color: white;
     font-weight: bolder;
-    transform: scale(1.1);
-    transition: 0.4s ease-in-out;
     transform-origin: bottom; }
-  .grid__productos .titulos {
-    padding: 0.5em 1em; }
 
-/* -------------------------Estilos de Acerca----------------------------------- */
-.fotosAcerca {
-  width: 600px;
-  height: 400px;
-  padding: 2em 2em;
-  margin: 2em 2em;
-  border-radius: 3em; }
+/* -------------------------BANNER ACERCA----------------------------------- */
+.acerca__banner {
+  background-color: #dfe6e9; }
 
-.acerca__derecha {
-  position: absolute;
-  left: 50%;
-  bottom: -170%; }
-
-.acerca__izq__arriba {
-  position: absolute;
-  right: 50%;
-  bottom: -50%; }
-
-.acerca__izq__abajo {
-  position: absolute;
-  right: 50%;
-  bottom: -280%; }
-
-.text-acerca {
-  text-align: center;
-  padding: 2em 2em; }
-
-.btn {
+/* -------------------------- ACERCA DERECHA-------------------------------------- */
+.acerca__container__d {
   display: flex;
-  justify-content: center;
-  margin-bottom: 1em; }
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3em; }
+  .acerca__container__d .fotosAcerca {
+    width: 600px;
+    height: 400px;
+    padding: 2em 2em;
+    margin: 2em 2em;
+    border-radius: 3em; }
+  .acerca__container__d .acerca__text__d {
+    text-align: right;
+    margin: 2em; }
+  .acerca__container__d .acerca__titulo__d {
+    font-size: 2.5rem;
+    color: black;
+    text-align: right;
+    margin: 0.7em; }
+  .acerca__container__d .titulo__rosa {
+    color: #fab1a0; }
+  .acerca__container__d .btn__acerca {
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 2em 2em;
+    text-decoration: none;
+    margin: 2em;
+    transition: 1.5s; }
+  .acerca__container__d .btn__acerca:hover {
+    color: white;
+    background-color: black; }
+
+/* ---------------------------------------------ACERCA IZQUIERDA----------------------------------------- */
+.acerca__container__i {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3em; }
+  .acerca__container__i .acerca__titulo__i {
+    font-size: 2.5rem;
+    color: black;
+    text-align: left;
+    margin: 0.7em; }
+  .acerca__container__i .titulo__azul {
+    color: #a29bfe; }
+  .acerca__container__i .acerca__text__i {
+    text-align: left;
+    margin: 2em; }
+  .acerca__container__i .fotosAcerca {
+    width: 600px;
+    height: 400px;
+    padding: 2em 2em;
+    margin: 2em 2em;
+    border-radius: 3em; }
 
 /* -------------------------------------------CONTACTO--------------------------------------------------- */
+.form__cards {
+  margin: 1em 1em; }
+  .form__cards .contacto__text {
+    margin: 3em; }
+  .form__cards .btn-dark {
+    color: black;
+    background-color: transparent;
+    border-radius: 2em 2em;
+    border: solid 2px black;
+    transition: 0.5s; }
+  .form__cards .btn-dark:hover {
+    color: white;
+    background-color: black; }
+
+.contacto__banner {
+  background-color: #fab1a0; }
+
+/* -------------------------------------------FORMULARIO-------------------------------------------- */
 .form {
-  width: 300px;
-  padding: 16px;
+  width: 305px;
+  padding: 1em;
   margin: auto;
   margin-top: 2em;
   background: white;
@@ -363,11 +457,19 @@ footer {
   border-radius: 0.3em;
   margin-bottom: 1em; }
   .form .form__label {
-    width: 72px;
+    width: 85px;
     font-family: 'Poppins', sans-serif;
     font-size: small;
     font-weight: bold;
     display: inline-block; }
+  .form .form__label__block {
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 2em; }
   .form .form__input__text {
     width: 180px;
     padding: 3px 10px;
@@ -377,141 +479,57 @@ footer {
     display: inline-block; }
   .form .form__input__submit {
     width: 100%;
-    padding: 8px 16px;
+    padding: 8px 10px;
     margin-top: 32px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 2em 2em;
     display: block;
-    color: #FDF8F5;
-    background-color: black; }
+    transition: 0.5s; }
+  .form .form__input__submit:hover {
+    background-color: black;
+    color: white; }
   .form .form__input__reset {
     width: 100%;
-    padding: 8px 16px;
+    padding: 8px 10px;
     margin-top: 32px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 2em 2em;
     display: block;
-    color: #FDF8F5;
-    background-color: black; }
-
-.Contacto__cards {
-  margin: 1em 1em; }
-  .Contacto__cards .contacto__text {
-    margin: 1em 1em; }
-
-.form__cards {
-  margin: 1em 1em; }
-
-/* btn bootstrap modificacion */
-.btn-dark {
-  background-color: #333;
-  border-radius: 5px;
-  border: none; }
-
-/* --------------------MEDIA QUERY----------------------------------- */
-@media only screen and (max-width: 1350px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start; }
-  .menu-lista ul {
-    width: 100%;
-    flex-direction: column; }
-  .menu-lista {
-    width: 100%; }
-  .menu-lista li {
-    text-align: center; }
-  .menu-lista li {
-    padding-bottom: 2em; }
-  body {
-    font-size: 14px; } }
-
-@media only screen and (max-width: 1200px) {
-  .ropa__chicos__imgbx {
-    display: none; }
-  .ropa__chicas__imgbx {
-    display: none; }
-  .ropa__chicas {
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center; }
-  .ropa__chicas h2 {
-    font-size: 2.5rem;
-    color: black;
-    margin-bottom: 1em;
-    text-align: center; }
-  .ropa__chicas p {
-    line-height: 1.5em;
-    text-align: center; }
-  .btn__rosa {
-    border: none;
-    background-color: #fab1a0;
-    color: black;
-    font-weight: 600;
-    padding: 10px 18px;
-    border-radius: 0.5em;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 1.5em;
-    text-align: center; }
-  .ropa__chicos {
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center; }
-  .ropa__chicos h2 {
-    font-size: 2.5rem;
-    color: black;
-    margin-bottom: 1em;
-    text-align: center; }
-  .ropa__chicos p {
-    line-height: 1.5em;
-    text-align: center; }
-  .btn__azul {
-    border: none;
-    background-color: #a29bfe;
-    color: black;
-    font-weight: 600;
-    padding: 10px 18px;
-    border-radius: 0.5em;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 1.5em;
-    text-align: center; }
-  .acerca__derecha {
-    display: none; }
-  .acerca__izq__arriba {
-    display: none; }
-  .acerca__izq__abajo {
-    display: none; } }
-
-@media only screen and (max-width: 660px) {
-  body {
-    font-size: 12px; }
-  .text-banner {
-    font-size: 10px; }
-  h3 {
-    text-align: center;
-    padding-bottom: 0.1em; } }
+    transition: 0.5s; }
+  .form .form__input__reset:hover {
+    background-color: black;
+    color: white; }
 
 /* -------------------------------ERROR 404------------------------------ */
+.contenedor__404 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  height: 100vh; }
+
+.error__img {
+  margin-left: 5em;
+  margin-right: 5em;
+  height: 400px;
+  width: 400px; }
+
 .contenedor__error {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  font-family: poppins; }
+  background-color: #f8f9fa; }
   .contenedor__error .titulo__error {
-    font-size: 3rem;
-    margin-bottom: 1em; }
+    font-size: 3rem; }
   .contenedor__error .text__error {
     text-align: center;
-    margin-bottom: 2em; }
+    margin: 2em; }
   .contenedor__error .links__error__lista {
     display: flex;
     flex-direction: column;
@@ -523,9 +541,115 @@ footer {
     text-decoration: none;
     color: black;
     margin: auto;
-    padding: 0.5em; }
+    padding: 0.7em;
+    border-radius: 2em 2em;
+    transition: 0.5s; }
   .contenedor__error .links__error__lista a:hover {
     background-color: #fab1a0;
+    color: white;
     transform: scale(1.1);
-    transition: 0.4s ease-in-out;
-    border-radius: 0.3em; }
+    border-radius: 2em 2em; }
+
+/* --------------------MEDIA QUERY----------------------------------- */
+@media only screen and (max-width: 1350px) {
+  body {
+    font-size: 14px; }
+  .contenedor__404 {
+    flex-direction: column; }
+  .error__img {
+    margin-top: 40%; } }
+
+@media only screen and (max-width: 1200px) {
+  .acerca__container__i {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .acerca__container__i .acerca__text__d {
+      text-align: center; }
+    .acerca__container__i .acerca__titulo__d {
+      text-align: center; }
+    .acerca__container__i .acerca__text__i {
+      text-align: center; }
+    .acerca__container__i .acerca__titulo__i {
+      text-align: center; }
+  .acerca__container__d {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .acerca__container__d .acerca__text__d {
+      text-align: center; }
+    .acerca__container__d .acerca__titulo__d {
+      text-align: center; }
+    .acerca__container__d .acerca__text__i {
+      text-align: center; }
+    .acerca__container__d .acerca__titulo__i {
+      text-align: center; }
+    .acerca__container__d .btn__acerca {
+      text-align: center; }
+  .index__text__i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.5em;
+    max-width: 600px; }
+    .index__text__i p {
+      text-align: center; }
+    .index__text__i .titulo__izq {
+      text-align: center; }
+  .index__text__d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.5em;
+    max-width: 600px; }
+    .index__text__d p {
+      text-align: center; }
+    .index__text__d .titulo__der {
+      text-align: center; } }
+
+@media only screen and (max-width: 660px) {
+  body {
+    font-size: 12px; }
+    body .titulos__negro__main {
+      font-size: 3rem;
+      letter-spacing: 5px;
+      text-align: center; }
+    body .titulos__negro {
+      font-size: 1.5rem;
+      margin-top: 1em; }
+    body .titulos__blanco__main {
+      font-size: 3rem;
+      letter-spacing: 5px;
+      color: white;
+      text-align: center; }
+    body .titulos__blanco {
+      font-size: 1.5rem;
+      color: white; }
+  .text-banner {
+    font-size: 10px; }
+  h3 {
+    text-align: center;
+    padding-bottom: 0.1em; }
+  .error__img {
+    width: 300px;
+    height: 300px;
+    margin-top: 300px; }
+  .banner .banner__sale {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 7px; }
+  .acerca__container__d .fotosAcerca {
+    width: 320px;
+    height: 280px; }
+  .acerca__container__i .fotosAcerca {
+    width: 320px;
+    height: 280px; }
+  .index__imgbox .index__back__img {
+    width: 26em;
+    height: 23em; }
+  .index__imgbox .index__main__img {
+    width: 26em;
+    height: 23em; } }

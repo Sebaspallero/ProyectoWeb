@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link  rel="icon"   href="../PNG/favicon-32x32.png" type="image/png" />
+    <link rel="shortcut icon" href="../PNG/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/prueba.css">
     <title>Petit Nunú | CONTACTO</title>
     <meta name="description" content="Contactate con nosotros por teléfono o suscribite a nuestro Newslleter. También encontrarás nuestros horarios y ubicación en La Plata. ">
@@ -46,7 +47,11 @@
               </nav>
         </header>
             <section>
-                <h1 class="animate__animated animate__fadeIn titulos">Contacto</h1>
+              <div class="contacto__banner">
+                <img src="../PNG/waves-arriba-b.svg" alt="imagen de banner arriba">
+                <h1 class="titulos__blanco__main animate__animated animate__fadeIn">Contacto</h1>
+                <img class="banner__fondo" src="../PNG/waves-negative-abajo.svg" alt="imagen de banner abajo">
+              </div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="card text-center form__cards " style="width: 18rem;">
@@ -75,7 +80,8 @@
                             </div>
                         </div>
                         </div>
-                    <p class="contacto__text">Si quiere recibir todas nuestras novedades acerca de los descuentos, promociones, nuevas temporadas y campañas de donación, considere suscribirse a nuestro newsletter para obetener toda la información antes que nadie </p>
+                        <h2 class="titulos__negro">¡Mantengámos en Contacto!</h2>
+                        <p class="contacto__text">Si quiere recibir todas nuestras novedades acerca de los descuentos, promociones, nuevas temporadas y campañas de donación, considere suscribirse a nuestro newsletter para obetener toda la información antes que nadie. </p>
                     <form class="animate__animated animate__slideInUp form" action="" method="POST">
                         <label class="form__label" for="nombre">Nombre:</label>
                             <input class="form__input__text" type="text" id="nombre" name="nombre">
@@ -83,7 +89,7 @@
                             <input class="form__input__text" type="text" id="apellido" name="apellido">
                         <label class="form__label" for="email">Email:</label>
                             <input class="form__input__text" type="text" id="email" name="email">
-                        <label class="form__label" for="Escoja Su País">Escoja Su País</label>
+                        <label class="form__label__block" for="Escoja Su País">Escoja Su País:</label>
                             <select name="País">
                                 <option value="Argentina">Argentina</option>
                                 <option value="Uruguay">Uruguay</option>
@@ -93,10 +99,10 @@
                                 <option value="Bolivia">Bolivia</option>
                                 <option value="Perú">Perú</option>
                             </select>
-                        <label class="form__label" for="¿Desea Suscribirse a nuestro Newsletter?">¿Desea Suscribirse a nuestro Newsletter?</label>
-                            <input type="checkbox" name="acepta" value="1" /> 
-                            <input class="form__input__submit" type="submit" value="Enviar formulario"/>
-                            <input class="form__input__reset" type="reset" value="Limpiar formulario"/>
+                        <label class="form__label__block" for="¿Desea Suscribirse a nuestro Newsletter?">¿Desea Suscribirse a nuestro Newsletter?</label>
+                          <input type="checkbox" name="acepta" value="1" /> 
+                          <input class="form__input__submit" type="submit" value="Enviar formulario"/>
+                          <input class="form__input__reset" type="reset" value="Limpiar formulario"/>
                     </form>
             </section>
             <div class="btn__arriba__blanco" >
@@ -105,16 +111,16 @@
         </main>
         <footer>
             <img class="footer__logo" src="../PNG/logoPetit.png" alt="Logotipo de petit nunú negro">
-            <div class="footer__redes">
-                <a target="blank" href="https://twitter.com/home"><span class="iconify footer__redes__twitter" data-icon="akar-icons:twitter-fill" data-inline="false" data-width="2.5em"></span></a>
-                 <a target="blank" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram inst__logo"></i></a>
-                 <a target="blank" href="https://www.facebook.com/"><span class="iconify footer__redes__facebook" data-icon="akar-icons:facebook-fill" data-inline="false" data-width="2.5em"></span></a>
-               </div>
+            <div class="icon__redes">
+                <a target="blank" href="https://twitter.com/home"><i class="fab fa-twitter twi__logo"></i></a>
+                <a target="blank" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram inst__logo"></i></a>
+                <a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f face__logo"></i></a>
+              </div>
             <p>Petit Nunú ©2021</p>
             <p>Todos los derechos reservados.</p>
         </footer>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script> 
         <script src="https://kit.fontawesome.com/fdd403fed8.js" crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 </body>
 </html>

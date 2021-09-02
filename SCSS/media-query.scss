@@ -3,123 +3,135 @@
 
 @media only screen and (max-width: 1350px){
 
-
-    nav{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .menu-lista ul{
-        width: 100%;
-        flex-direction: column;
-    }
-    .menu-lista{
-        width: 100%;
-    }
-    
-    .menu-lista li {
-        text-align: center;
-    }
-
-    .menu-lista li{
-        padding-bottom: 2em;
-    }
-
  body{
     font-size: 14px;
  }
+
+
+ .contenedor__404{
+    flex-direction: column;
+}
+
+.error__img{
+    margin-top: 40%;
+}
  }
 
 
-
  @media only screen and (max-width: 1200px){
-    .ropa__chicos__imgbx{
-      display: none;
+    
+     
+     .acerca__container__i{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .acerca__text__d{
+            text-align: center;
+        }
+
+        .acerca__titulo__d{
+            text-align: center;
+        }
+
+        .acerca__text__i{
+            text-align: center;
+        }
+
+        .acerca__titulo__i{
+            text-align: center;
+        }
     }
-    .ropa__chicas__imgbx{
-      display: none;
+
+    .acerca__container__d{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .acerca__text__d{
+            text-align: center;
+        }
+
+        .acerca__titulo__d{
+            text-align: center;
+        }
+
+        .acerca__text__i{
+            text-align: center;
+        }
+
+        .acerca__titulo__i{
+            text-align: center;
+        }
+
+        .btn__acerca{
+            text-align: center;
+        }
     }
-    .ropa__chicas{
-      margin-top: 20%;
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-      justify-items: center;
-      justify-content: center;
-     }
-     .ropa__chicas h2{
-         font-size: 2.5rem;
-         color:black;
-         margin-bottom: 1em;
-         text-align: center;
-     }
-     .ropa__chicas p{
-         line-height: 1.5em;
-         text-align: center;
-     }
- 
-     .btn__rosa{
-         border: none;
-         background-color: #fab1a0;
-         color: black;
-         font-weight: 600;
-         padding: 10px 18px;
-         border-radius: 0.5em;
-         display: inline-block;
-         text-decoration: none;
-         margin-top: 1.5em;
-         text-align: center;
-     }
 
-     .ropa__chicos{
-      margin-top: 20%;
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-      justify-items: center;
-      justify-content: center;
-     }
-     .ropa__chicos h2{
-         font-size: 2.5rem;
-         color:black;
-         margin-bottom: 1em;
-         text-align: center;
-     }
-     .ropa__chicos p{
-         line-height: 1.5em;
-         text-align: center;
-     }
- 
-     .btn__azul{
-         border: none;
-         background-color: #a29bfe;
-         color: black;
-         font-weight: 600;
-         padding: 10px 18px;
-         border-radius: 0.5em;
-         display: inline-block;
-         text-decoration: none;
-         margin-top: 1.5em;
-         text-align: center;
-     }
+    .index__text__i{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1.5em;
+        max-width: 600px;
 
-     .acerca__derecha{
-         display: none;
-     }
+        p{
+            text-align: center;
+        }
 
-     .acerca__izq__arriba{
-         display: none;
-     }
+        .titulo__izq{
+            text-align: center;
+        }
+    }
 
-     .acerca__izq__abajo{
-         display: none;
-     }
+    .index__text__d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1.5em;
+        max-width: 600px;
+
+        p{
+            text-align: center;
+        }
+
+        .titulo__der{
+            text-align: center;
+        }
+    }
   }
+
 
 @media only screen and (max-width: 660px){
 
     body{
         font-size: 12px;
+
+        .titulos__negro__main{
+            font-size: 3rem;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+    
+        .titulos__negro{
+        font-size: 1.5rem;
+        margin-top: 1em;
+        }
+    
+        .titulos__blanco__main{
+            font-size: 3rem;
+            letter-spacing: 5px;
+            color: white;
+            text-align: center;
+        }
+    
+        .titulos__blanco{
+        font-size: 1.5rem;
+        color: white;
+        }
     }
 
     .text-banner{
@@ -130,4 +142,49 @@
         padding-bottom: 0.1em;
         
     }
+
+    .error__img{
+        width: 300px;
+        height: 300px;
+        margin-top: 300px;
+    }
+
+.banner{
+
+    .banner__sale{
+        color: white;
+        text-align: center;
+        font-size: 3.5rem;
+        letter-spacing: 7px;
+        
+    }
+}
+
+.acerca__container__d{
+
+    .fotosAcerca{
+        width: 320px;
+        height: 280px;
+    }
+}
+
+.acerca__container__i{
+
+    .fotosAcerca{
+        width: 320px;
+        height: 280px;
+    }
+}
+
+.index__imgbox{
+    .index__back__img{
+        width: 26em;
+        height: 23em;
+      }
+    
+      .index__main__img{
+        width: 26em;
+        height: 23em;
+      }
+}
 }

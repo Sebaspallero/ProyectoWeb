@@ -1,73 +1,102 @@
 /* -------------------------------------------CONTACTO--------------------------------------------------- */
 
-.form{
-	width:300px;
-	padding:16px;
-	margin:auto;
-    margin-top: 2em;
-    background: white;
-    border: #ced4da solid 1px;
-    border-radius: 0.3em;
-    margin-bottom: 1em;
+    .form__cards{
+        margin: 1em 1em;
 
-    .form__label{
-        width:72px;
+        .contacto__text{
+            margin: 3em;
+        }
+        
+        .btn-dark{
+            color: black;
+            background-color: transparent;
+            border-radius: 2em 2em;
+            border: solid 2px black;
+            transition: 0.5s;
+        }
+    
+        .btn-dark:hover{
+            color: white;
+            background-color: black;
+        }
+    }
+
+    .contacto__banner{
+        background-color: $clr-accent-rosa;
+    }
+
+/* -------------------------------------------FORMULARIO-------------------------------------------- */
+
+    .form{
+        width:305px;
+        padding:1em;
+        margin:auto;
+        margin-top: 2em;
+        background: white;
+        border: #ced4da solid 1px;
+        border-radius: 0.3em;
+        margin-bottom: 1em;
+    
+        .form__label{
+        width:85px;
         font-family:'Poppins', sans-serif ;
         font-size: small;
         font-weight:bold;
         display:inline-block;
-    }
-
-    .form__input__text{
-	width:180px;
-	padding:3px 10px;
-	border:1px solid;
-	border-radius:3px;
-	margin:8px 0;
-	display:inline-block;
-   }
-
-    .form__input__submit{
-        width:100%;
-        padding:8px 16px;
-        margin-top:32px;
-        border:1px solid black;
-        border-radius:5px;
-        display:block;
-        color:#FDF8F5;
-        background-color:black;
-    }  
-
-    .form__input__reset{
-        width:100%;
-        padding:8px 16px;
-        margin-top:32px;
-        border:1px solid black;
-        border-radius:5px;
-        display:block;
-        color:#FDF8F5;
-        background-color:black;
-    } 
-    }
-
-
-    .Contacto__cards{
-        margin: 1em 1em;
-
-        .contacto__text{
-            margin: 1em 1em;
         }
-    }
-
-    .form__cards{
-        margin: 1em 1em;
-    }
     
-/* btn bootstrap modificacion */
-    .btn-dark{
-        background-color: $clr-bg-dark;
-        border-radius: 5px;
-        border: none;
-    }
+        .form__label__block{
+        width:150px;
+        font-family:'Poppins', sans-serif ;
+        font-size: small;
+        font-weight:bold;
+        display: inline-block;
+        margin-bottom: 1em;
+        margin-top: 2em;
+        }
+    
+        .form__input__text{
+        width:180px;
+        padding:3px 10px;
+        border:1px solid;
+        border-radius:3px;
+        margin:8px 0;
+        display:inline-block;
+       }
+    
+        .form__input__submit{
+            width:100%;
+            padding:8px 10px;
+            margin-top:32px;
+            border:2px solid black;
+            background-color:transparent;
+            color: black;
+            border-radius:2em 2em;
+            display:block;
+            transition: 0.5s;
+        }  
+    
+        .form__input__submit:hover{
+            background-color: black;
+            color: white;
+        }
+    
+        .form__input__reset{
+            width:100%;
+            padding:8px 10px;
+            margin-top:32px;
+            border:2px solid black;
+            background-color:transparent;
+            color: black;
+            border-radius:2em 2em;
+            display:block;
+            transition: 0.5s;
+        }
+         
+        .form__input__reset:hover{
+            background-color: black;
+            color: white;
+        }
+        }
 
 

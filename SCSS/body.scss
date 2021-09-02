@@ -1,3 +1,5 @@
+/* ----------------------------RESET-------------------------------------------------------------- */
+
 * {
     margin:0;
     padding:0;
@@ -25,15 +27,13 @@ $clr-accent-celeste: #dfe6e9;
 /* ----------------------------BODY-------------------------------------------------------------- */
 
 body{
-    background-color:$clr-bg-white;
+    background-color:#f8f9fa;
 
     h1{
-        margin:0.5em;
+        padding:1em;
     }
 
     h2 {text-align: center;
-        padding-top: 1em;
-        padding-bottom: 1em;
     }
     
     h3{ text-align: center;
@@ -42,11 +42,6 @@ body{
         
     }
     
-    
-    p{
-        text-align: center;
-    }
-
     .btn__arriba{
         background-color:#dfe6e9 ;
         text-align: center;
@@ -55,10 +50,83 @@ body{
     }
 
     .btn__arriba__blanco{
-        background-color:#fafafa ;
+        background-color:#f8f9fa ;
         text-align: center;
         font-size: 1.7em;
         color: grey;
     }
 
+    .btn__arriba__rosa{
+        background-color:#fab1a0 ;
+        text-align: center;
+        font-size: 1.7em;
+        color: grey;
+    }
+
+    .titulos__negro__main{
+        font-size: 4rem;
+        letter-spacing: 5px;
+    }
+
+    .titulos__negro{
+    font-size: 2.5rem;
+    margin-top: 1em;
+    }
+
+    .titulos__blanco__main{
+        font-size: 4rem;
+        letter-spacing: 5px;
+        color: white;
+    }
+
+    .titulos__blanco{
+    font-size: 2.5rem;
+    color: white;
+    }
+
+/* ---------------------------------------ICON REDES------------------------------------------ */
+
+.icon__redes{
+    display: flex;
+    flex-flow: row;
+    gap: 2em;
+    margin-bottom:2em;
+    margin-top: 1em;;
+
+    .twi__logo{
+        font-size: 2.4em;
+        color: lightgrey;
+        transition: 0.4s;
+    }
+    
+    .twi__logo:hover{
+        color: #1DA1F2;
+        
+    }
+    
+    .fa-instagram{
+        font-size: 2.5em;
+        color: lightgrey;
+        transition: 0.4s;
+    }
+    
+    .inst__logo:hover{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        
+    }
+    
+    .face__logo{
+        font-size: 2.3em;
+        color: lightgrey;
+        transition: 0.4s;
+    }
+    
+    .face__logo:hover{
+        color: #3B5998;
+    }
+    
+}
 }

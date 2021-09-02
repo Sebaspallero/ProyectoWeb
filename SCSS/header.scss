@@ -1,44 +1,13 @@
 /* -------------------------------HEADER--------------------------------------------------------- */
 header{
-    background: #f3f3f3;
-
+        
+    background-color:$clr-accent-rosa;
+    
     .header__logo{
         margin: 0.5em;
         width: 250px;
-         height: 250px;
+        height: 250px;
     }
 }
 
-/*------------------------------ Estilos de Nav -------------------------------------------------*/
 
-
-.menu-lista li a{
-    padding: 0.5em;
-    margin:1em;
-    text-decoration: none;
-    list-style: none;
-    color:$clr-bg-black;
-    
-}
-
-.menu-lista li a:hover{
-    background-color: $clr-accent-rosa;
-    transform: scale(1.1);
-    transition: 0.4s ease-in-out;
-    border-radius: 0.3em;
-}
-
-.menu-link-active{
-    font-weight: 550;
-    background-color: $clr-accent-rosa;
-    border-radius: 0.3em;
-}
-
-/* -----------------Banner Arriba------------------------------- */
-
-
- .banner-enlace{
-   text-decoration: none;
-   list-style: none;
-   color:var(--clr-txt-light);
- }

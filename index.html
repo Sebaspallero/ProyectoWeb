@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link  rel="icon" href="../PNG/favicon-32x32.png" type="image/png" />
+    <link rel="shortcut icon" href="./PNG/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/prueba.css">
     <title>Petit Nunú | ROPA DE NIÑOS Y NIÑAS</title>
     <meta name="description" content="Encontrá nuestras ofertas y comprá en nuestra tienda. ¡Tenemos todos los medios de pago! Ingresá a nuestra tienda y hacé tu pedido online. ¡Conocé todos nuestros beneficios!">
@@ -16,10 +17,10 @@
     <body>
       <a id="volver_arriba"></a>
           <header>
-            <nav class="navbar navbar-expand-xl navbar-light bg-light separado">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light ">
               <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"></a>
-                <img class="header__logo" src="./PNG/logoPetit.png" alt="">
+                <img class="header__logo" src="./PNG/logoPetit.png" alt="Logotipo de petit nunú negro">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,137 +45,86 @@
                 </div>
               </div>
             </nav>
-              </header>
-              <main class="index__body">
-                <section>
-                  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="false" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </header>
+            <main class="index__body">
+              <div class="banner">
+                <img src="./PNG/waves-arriba-b.svg" alt="imagen de banner arriba">
+                <h1 class="banner__titulo">Petit Nunú</h1>
+                <p class="banner__sale">INVIERNO | OTOÑO</p>
+                <p class="banner__num">SALE <span class="banner__off">50%</span></p>
+                <p class="banner__text">¡Conseguí las mejores ofertas de esta temporada, comprando en nuesta tienda online!</p>
+                <div class="banner__link">
+                <a class="banner__boys" href="./HTML/boys.html">Niños</a>
+                <a class="banner__girls" href="./HTML/girls.html">Niñas</a>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./PNG/banner-1.png" class="d-block w-100 img-banner" alt="banner-otoño">
-                    <div class="carousel-caption">
-                      <h3 class="animate__animated animate__fadeIn">Bienvenidos a Petit Nunú</h3>
-                      <p class="textoBanner animate__animated animate__fadeInUpBig text__banner">Te damos la bienvenida a nuestra tienda online.</p>
-                      <p class="textoBanner animate__animated animate__fadeInUpBig text__banner">Descubrí todas las novedades y ofertas que tenemos para ofrecerte.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./PNG/banner-2.png" class="d-block w-100 img-banner" alt="banner-otoño-2">
-                    <div class="carousel-caption">
-                      <h3 class="animate__animated animate__fadeIn">Colección Otoño e Invierno</h3>
-                      <p class="textoBanner animate__animated animate__fadeInUpBig text__banner">Nuestra nueva colección para esta temporada de frío 2021 ya esta aquí!</p>
-                      <p class="textoBanner animate__animated animate__fadeInUpBig text__banner">Encontrá todos nuestros nuevos productos en la sección de Niños y Niñas.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <a class="banner-enlace index__enlace" href="./HTML/contacto.html">
-                    <img src="./PNG/banner-3.png" class="d-block w-100 img-banner" alt="banner-otoño-3">
-                    <div class="carousel-caption">
-                      <h3 class="animate__animated animate__fadeIn">Suscribité a Nuestro Newslleter</h3>
-                      <p class="textoBanner animate__animated animate__fadeInUpBig text__banner">Si querés enterarte de todas nuestras novedades y descuentos,</p>
-                      <p class="textoBanner animate__animated animate__fadeInUpBig text__banner">suscribité a nuestro Newsleter para mantenerte al día con nuestros avisos.</p>
-                    </a>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="false"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                <img class="banner__fondo" src="./PNG/waves-negative-abajo.svg" alt="imagen de banner abajo">
               </div>
-            </section>
-            <div class="container overflow-hidden">
-              <div class="row index__fm">
-                  <div class="col-xl-6">
-          <div class="ropa__chicos">
+          <div class="acerca__container__i">
+            <div data-aos="fade-right" class="index__text__i">
               <h2 class="titulo__izq">Colección Invierno & Otoño | <span class="titulo__azul">Niños</span></h2>
               <p>Disfruta de nuestra nueva colección Invierno & Otoño 2021 de ropa para niños. En esta oportunidad no te pierdas todas nuestras novedades y diseños.</p>
               <a class="btn__azul" href="./HTML/boys.html">Ropa Niños</a>
+            </div>
+            <div data-aos="zoom-in-up" class="index__imgbox">
+              <img src="./PNG/pattern.png" class="index__back__img"  alt="pattern-azul">
+              <img src="./PNG/chico-solo.png" class="index__main__img"  alt="chico-index">
+            </div>
+        </div>
+        <div class="acerca__container__d">
+          <div data-aos="fade-left" class="index__text__d">
+            <h2 class="titulo__der">Colección Invierno & Otoño | <span class="titulo__rosa">Niñas</span></h2>
+            <p>Disfruta de nuestra nueva colección Invierno & Otoño 2021 de ropa para niñas. En esta oportunidad no te pierdas todas nuestras novedades y diseños.</p>
+            <a class="btn__rosa" href="./HTML/girls.html">Ropa Niñas</a>
           </div>
+          <div data-aos="zoom-in-up" class="index__imgbox">
+            <img src="./PNG/pattern-chica.png" class="index__back__img"  alt="pattern-rosa">
+            <img src="./PNG/chica-sola.png" class="index__main__img"  alt="chica-index">
           </div>
-          <div class="col">
-          <div class="ropa__chicos__imgbx">
-              <img src="./PNG/pattern.png" class="img__fondo" alt="">
-              <img src="./PNG/chico-solo.png" class="img__main" alt="">
-          </div>
-          </div>
-          </div>
-          <div class="row index__fm">
-              <div class="col">
-                  <div class="ropa__chicas__imgbx">
-                      <img src="./PNG/pattern-chica.png" class="img__fondo img-fluid" alt="">
-                      <img src="./PNG/chica-sola.png" class="img__main img-fluid" alt="">
-                  </div>
-                  </div>
-              <div class="col-xl-6">
-      <div class="ropa__chicas">
-          <h2 class="titulo__der" >Colección Invierno & Otoño <span class="titulo__rosa"> Niñas </span>|</h2>
-          <p>Disfruta de nuestra nueva colección Invierno & Otoño 2021 de ropa para niñas. En esta oportunidad no te pierdas todas nuestras novedades y diseños.</p>
-          <a class="btn__rosa" href="./HTML/girls.html">Ropa Niñas</a>
       </div>
+      <div class="acerca__container__i">
+        <div data-aos="fade-right" class="index__text__i">
+          <h2 class="titulo__izq">Sobre |<span class="titulo__azul"> Nosotros</span></h2>
+          <p>Para saber más acerca de nuestra historia, y nuestro compromiso con los más necesitados, podes seguirnos en nuestras redes sociales o leer nuestros principios en la sección de "Acerca".</p>
+          <div class="icon__redes">
+            <a target="blank" href="https://twitter.com/home"><i class="fab fa-twitter twi__logo"></i></a>
+            <a target="blank" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram inst__logo"></i></a>
+            <a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f face__logo"></i></a>
+           </div>   
+            <a class="btn__azul" href="./HTML/acerca.html">Acerca</a>
+        </div>
+        <div data-aos="zoom-in-up" class="index__imgbox">
+          <img src="./PNG/pattern.png" class="index__back__img"  alt="pattern-azul">
+          <img src="./PNG/acerca-solo.png" class="index__main__img"  alt="acerca-index">
+        </div>
       </div>
+      <div class="acerca__container__d">
+        <div data-aos="fade-left" class="index__text__d">
+          <h2 class="titulo__der">Suscríbite a nuestro |<span class="titulo__rosa"> Newslleter</span></h2>
+          <p>Si querés recibir todas nuestras novedades acerca de los descuentos, promociones, nuevas temporadas y campañas de donación, podés suscribirte a nuestro newsletter para obetener toda la información antes que nadie.</p>
+          <a class="btn__rosa" href="./HTML/contacto.html">Contacto</a>
+        </div>
+        <div data-aos="zoom-in-up" class="index__imgbox">
+          <img src="./PNG/pattern-chica.png" class="index__back__img"  alt="pattern-rosa">
+          <img src="./PNG/contacto-solo.png" class="index__main__img"  alt="chica-index">
+        </div>
       </div>
-      <div class="row index__fm">
-              <div class="col-xl-6">
-          <div class="ropa__chicos">
-              <h2 class="titulo__izq">Sobre <span class="titulo__azul"> Nosotros</span></h2>
-              <p>Para saber más acerca de nuestra historia, y nuestro compromiso con los más necesitados, podes seguirnos en nuestras redes sociales o leer nuestros principios en la sección de "Acerca"</p>
-              <div class="footer__redes">
-                <a target="blank" href="https://twitter.com/home"><span class="iconify footer__redes__twitter" data-icon="akar-icons:twitter-fill" data-inline="false" data-width="2.5em"></span></a>
-                <a target="blank" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram inst__logo"></i></a>
-                <a target="blank" href="https://www.facebook.com/"><span class="iconify footer__redes__facebook" data-icon="akar-icons:facebook-fill" data-inline="false" data-width="2.5em"></span></a>
-               </div>   
-                  <a class="btn__azul" href="./HTML/acerca.html">Acerca</a>
-          </div>
-              </div>
-          <div class="col">
-          <div class="ropa__chicos__imgbx">
-              <img src="./PNG/pattern.png" class="img__fondo" alt="">
-              <img src="./PNG/acerca-solo.png" class="img__main" alt="">
-          </div>
-          </div>
-          </div>
-              <div class="row index__fm">
-                  <div class="col">
-                      <div class="ropa__chicas__imgbx">
-                          <img src="./PNG/pattern-chica.png" class="img__fondo" alt="">
-                          <img src="./PNG/contacto-solo.png" class="img__main" alt="">
-                      </div>
-                      </div>
-                  <div class="col-xl-6">
-          <div class="ropa__chicas">
-              <h2 class="titulo__der">Suscribite a nuestro <span class="titulo__rosa"> Newslleter </span>|</h2>
-              <p>Si querés recibir todas nuestras novedades acerca de los descuentos, promociones, nuevas temporadas y campañas de donación, podés suscribirte a nuestro newsletter para obetener toda la información antes que nadie. </p>
-              <a class="btn__rosa" href="./HTML/contacto.html">Contacto</a>
-          </div>
-          </div>
-          </div>
-          </div>
           <div class="btn__arriba__blanco" >
             <a href="#volver_arriba"><a class="btn__arriba__blanco" href="#volver_arriba"><i class="fas fa-arrow-circle-up"></i></a>
           </div>
-                </section>
-              </main>
-                <footer>
-                 <img class="footer__logo" src="./PNG/logoPetit.png" alt="Logotipo de petit nunú negro">
-                 <div class="footer__redes">
-                 <a target="blank" href="https://twitter.com/home"><span class="iconify footer__redes__twitter" data-icon="akar-icons:twitter-fill" data-inline="false" data-width="2.5em"></span></a>
-                 <a target="blank" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram inst__logo"></i></a>
-                 <a target="blank" href="https://www.facebook.com/"><span class="iconify footer__redes__facebook" data-icon="akar-icons:facebook-fill" data-inline="false" data-width="2.5em"></span></a>
+            </main>
+              <footer>
+                <img class="footer__logo" src="./PNG/logoPetit.png" alt="Logotipo de petit nunú negro">
+                <div class="icon__redes">
+                  <a target="blank" href="https://twitter.com/home"><i class="fab fa-twitter twi__logo"></i></a>
+                  <a target="blank" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram inst__logo"></i></a>
+                  <a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f face__logo"></i></a>
                 </div>
                  <p>Petit Nunú ©2021</p>
                  <p>Todos los derechos reservados.</p>
-                </footer>
-            <script src="https://kit.fontawesome.com/fdd403fed8.js" crossorigin="anonymous"></script>
-            <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        </body>
+              </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <script src="https://kit.fontawesome.com/fdd403fed8.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>
