@@ -44,7 +44,7 @@ body {
     letter-spacing: 5px; }
   body .titulos__negro {
     font-size: 2.5rem;
-    margin-top: 1em; }
+    margin: 1em; }
   body .titulos__blanco__main {
     font-size: 4rem;
     letter-spacing: 5px;
@@ -149,12 +149,6 @@ header {
       background-color: black; }
   .banner .banner__fondo {
     display: block; }
-  .banner .banner__img {
-    width: 30em;
-    height: 28em;
-    position: absolute;
-    left: 60%;
-    top: 90%; }
 
 /* --------------------------------------ESTILO INDEX ------------------------------------------------ */
 .index__imgbox {
@@ -431,8 +425,6 @@ footer {
 /* -------------------------------------------CONTACTO--------------------------------------------------- */
 .form__cards {
   margin: 1em 1em; }
-  .form__cards .contacto__text {
-    margin: 3em; }
   .form__cards .btn-dark {
     color: black;
     background-color: transparent;
@@ -443,12 +435,16 @@ footer {
     color: white;
     background-color: black; }
 
+.contacto__text {
+  margin: 3em;
+  text-align: center; }
+
 .contacto__banner {
   background-color: #fab1a0; }
 
 /* -------------------------------------------FORMULARIO-------------------------------------------- */
 .form {
-  width: 305px;
+  width: 300px;
   padding: 1em;
   margin: auto;
   margin-top: 2em;
@@ -457,7 +453,7 @@ footer {
   border-radius: 0.3em;
   margin-bottom: 1em; }
   .form .form__label {
-    width: 85px;
+    width: 80px;
     font-family: 'Poppins', sans-serif;
     font-size: small;
     font-weight: bold;
@@ -593,7 +589,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-left: 1.5em;
-    max-width: 600px; }
+    max-width: 425px; }
     .index__text__i p {
       text-align: center; }
     .index__text__i .titulo__izq {
@@ -603,7 +599,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-left: 1.5em;
-    max-width: 600px; }
+    max-width: 425px; }
     .index__text__d p {
       text-align: center; }
     .index__text__d .titulo__der {
@@ -613,19 +609,18 @@ footer {
   body {
     font-size: 12px; }
     body .titulos__negro__main {
-      font-size: 3rem;
+      font-size: 2.5rem;
       letter-spacing: 5px;
       text-align: center; }
     body .titulos__negro {
-      font-size: 1.5rem;
-      margin-top: 1em; }
+      font-size: 1.6rem; }
     body .titulos__blanco__main {
-      font-size: 3rem;
+      font-size: 2.5rem;
       letter-spacing: 5px;
       color: white;
       text-align: center; }
     body .titulos__blanco {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       color: white; }
   .text-banner {
     font-size: 10px; }
@@ -646,10 +641,12 @@ footer {
     height: 280px; }
   .acerca__container__i .fotosAcerca {
     width: 320px;
-    height: 280px; }
+    height: 260px; }
   .index__imgbox .index__back__img {
     width: 26em;
     height: 23em; }
   .index__imgbox .index__main__img {
     width: 26em;
-    height: 23em; } }
+    height: 23em; }
+  .form {
+    width: 290px; } }

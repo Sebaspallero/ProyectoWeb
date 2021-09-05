@@ -76,7 +76,7 @@
         flex-direction: column;
         align-items: center;
         margin-left: 1.5em;
-        max-width: 600px;
+        max-width: 425px;
 
         p{
             text-align: center;
@@ -92,7 +92,7 @@
         flex-direction: column;
         align-items: center;
         margin-left: 1.5em;
-        max-width: 600px;
+        max-width: 425px;
 
         p{
             text-align: center;
@@ -111,25 +111,25 @@
         font-size: 12px;
 
         .titulos__negro__main{
-            font-size: 3rem;
+            font-size: 2.5rem;
             letter-spacing: 5px;
             text-align: center;
         }
     
         .titulos__negro{
-        font-size: 1.5rem;
-        margin-top: 1em;
+        font-size: 1.6rem;
+       
         }
     
         .titulos__blanco__main{
-            font-size: 3rem;
+            font-size: 2.5rem;
             letter-spacing: 5px;
             color: white;
             text-align: center;
         }
     
         .titulos__blanco{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: white;
         }
     }
@@ -172,7 +172,7 @@
 
     .fotosAcerca{
         width: 320px;
-        height: 280px;
+        height: 260px;
     }
 }
 
@@ -186,5 +186,9 @@
         width: 26em;
         height: 23em;
       }
+}
+
+.form{
+    width:290px;
 }
 }
